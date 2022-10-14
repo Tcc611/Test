@@ -6,11 +6,13 @@ The open-source numerical tool relies on COMSOL Multiphysics software to achieve
 
 # Examples
 The numerical tool for the calculations of total electromagnetic field (in the document named <Total field>) and scattered electromagnetic field (in the document named <Scattered field>) are both provided. Specifically, the programs in <Total field> and in <Scattered field> can be used to calculate the blue solid and blue dotted curves in Fig. 2(a2) and Fig. 3(c) in Ref. [1], respectively. In addition, the programs for the fullwave calculation with COMSOL Multiphysics software are provided, and the name of such programs ends with “fullwave_web”. With these programs, the blue circles in Fig. 2(a2) and Fig. 3(c) can be obtained.
-#Citing QNM_N-EBC
-We kindly request that you cite the following Ref. [1] in any published work for which you used our implementation here
+  
+# Citing QNM_N-EBC
+We kindly request that you cite the following Ref. [1] in any published work for which you used our implementation here.
 
 # Reference
 [1] Can Tao, Ying Zhong, and Haitao Liu, Quasinormal mode expansion theory for mesoscale plasmonic nanoresonators: an analytical treatment of nonclassical electromagnetic boundary condition, Physical Review Letters, (2022).
+  
 [2] Y. Yang, D. Zhu, W. Yan, A.Agarwal, M. Zheng, J. D. Joannopoulos, P. Lalanne, T. Christensen, K. K. Berggren, and M. Soljačić, A general theoretical and experimental framework for nanoscale electromagnetism, Nature 576, 248 (2019).
 
 
