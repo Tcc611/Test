@@ -6,7 +6,18 @@ The open-source numerical tool relies on COMSOL Multiphysics software to achieve
 
 # Examples
 The numerical tools for the calculations of total electromagnetic field (in the document named “Total field”) and scattered electromagnetic field (in the document named “Scattered field”) are both provided. Specifically, the programs in “Total field” and in “Scattered field” can be used to calculate the blue solid and blue dotted curves in Fig. 2(a2) and Fig. 3(c) in Ref. [1], respectively. In addition, the programs for the fullwave calculation with COMSOL Multiphysics software are provided, and the name of such programs ends with “fullwave_web”. With these programs, the blue circles in Fig. 2(a2) and Fig. 3(c) can be obtained.
-  
+ Table 1
+Curves in Fig. 2(a2)	Corresponding codes in folder “Fig2(a2)”
+Blue circles (FEM, NEBC)	single_nanowire_NPoM_antenna_h=6_PF_fullwave_web.mph
+
+Blue-solid curve (Model 1, NEBC)	single_nanowire_NPoM_antenna_h=6_classicalQNM_web.mph, nonclassical_QNM_expan_for_singleantenna_PF.m
+
+Blue-solid curve (Model 2A, NEBC)	single_nanowire_NPoM_antenna_h=6_classicalQNM_web.mph, nonclassical_QNM_expan_for_singleantenna_PF.m
+Blue-dashed curve (Model 2B, NEBC)	single_nanowire_NPoM_antenna_h=6_classicalQNM_web.mph, nonclassical_QNM_expan_for_singleantenna_PF.m
+Red circles (FEM, CEBC)	single_nanowire_NPoM_antenna_h=6_PF_fullwave_web.mph
+Red-solid curve (Model 1, CEBC)	single_nanowire_NPoM_antenna_h=6_classicalQNM_web.mph, nonclassical_QNM_expan_for_singleantenna_PF.m
+
+ 
 # Citing QNM_N-EBC
 We kindly request that you cite the following Ref. [1] in any published work for which you used our implementation here.
 
